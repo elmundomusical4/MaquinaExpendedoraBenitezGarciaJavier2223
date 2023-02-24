@@ -9,6 +9,7 @@ package maquinaexpendedora;
  * acciones de subir el precio y de sacar snacks de ella.
  * 
  * @author Javier Benítez García
+ * @version Trabajo final
  */
 public class Main {
 
@@ -48,7 +49,7 @@ public class Main {
     private static void obtener3_UnidadesBenitezGarciaJavier2223(MaquinaExpendedoraBenitezGarciaJavier2223 snack) {
         try {
             System.out.println("3º.- Vamos a sacar snacks (queremos 12 y tenemos 50 €)");
-            snack.sacarsnack(12, 50, pegatina);
+            snack.sacarsnack(12, 50, "pegatina");
             System.out.println("Operación realizada, ahora tiene "+snack.obtenerUnidades()+" unidades en la máquina");
         } catch (Exception e) {
             System.out.println("Error al sacar snack,porque no hay suficientes unidades");
@@ -69,7 +70,7 @@ public class Main {
     private static void obtener2_UnidadesBenitezGarcia2223(MaquinaExpendedoraBenitezGarciaJavier2223 snack) {
         try {
             System.out.println("2º.- Vamos a sacar snacks (queremos 2 y tenemos 9 €)");
-            snack.sacarsnack(2, 9, pegatina);
+            snack.sacarsnack(2, 9, "pegatina");
             System.out.println("Operación realizada, ahora tiene "+snack.obtenerUnidades()+" unidades en la máquina");
         } catch (Exception e) {
             System.out.println("Error al sacar snack,porque no hay suficientes dinero");
@@ -90,7 +91,7 @@ public class Main {
     private static void obtener1_UnidadesBenitezGarciaJavier2223(MaquinaExpendedoraBenitezGarciaJavier2223 snack) {
         try {
             System.out.println("1º.- Vamos a sacar snacks (queremos 2 y tenemos 5 €)");
-            snack.sacarsnack(2, 5, pegatina);
+            snack.sacarsnack(2, 5, "pegatina");
             System.out.println("Operación realizada, ahora tiene "+snack.obtenerUnidades()+" unidades en la máquina");
         } catch (Exception e) {
             System.out.println("Error al sacar snack,porque no hay suficientes dinero");
